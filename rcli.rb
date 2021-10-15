@@ -1,9 +1,9 @@
 class Rcli < Formula
   desc 'CLI for working with Render'
   homepage 'https://github.com/wendorf/render-cli'
-  version '0.0.3'
+  version '0.0.4'
   url "https://github.com/wendorf/render-cli/releases/download/v#{version}/darwin_amd64.tar.gz"
-  sha256 '083ed644673cbda9fe2f1417ae9d7535c81863520331fcca47eb3050d5924589'
+  sha256 '932bfff62f6396a4d69f00e4dd30071fe13b46d6d63d294c12f5067a26aa2e0c'
 
   def install
     bin.install 'rcli'
